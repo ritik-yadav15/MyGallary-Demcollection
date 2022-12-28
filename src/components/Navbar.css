@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+Nav {
+    display: flex;
+    background-color: #000000;
+    box-shadow: 10px 0px 10px #ffffff;
+    height: 77px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px;
+    z-index: 20;
+
+
+
+
+}
+
+.logo span {
+    color: rgb(64, 176, 241);
+    font-size: 44px;
+    margin-top: 33px;
+
+
+}
+
+.logoContainer {
+    font-family: 'Abril Fatface', cursive;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: rgb(245, 246, 247);
+
+}
+
+.linkContainer {
+    display: flex;
+    margin: 0px 0px;
+}
+
+.linkContainer ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0px 0px;
+
+}
+
+.linkContainer ul li {
+    display: flex;
+    margin: 23px;
+    font-size: 17;
+    background-color: rgb(64, 176, 241);
+    border-radius: 10px;
+
+}
+
+.linkContainer ul li:hover {
+    background-color: rgb(204, 223, 235);
+    transition: 0.4s;
+    border-radius: 12px;
+    box-shadow: 4px 0px 10px #ffffff;
+
+
+
+}
+
+.linkContainer ul li a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(19, 20, 22);
+    font-weight: bold;
+    margin: 3px 7px;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.linkContainer ul li a:hover {
+    color: rgb(64, 176, 241);
+
+
+
+
+}
+
+.Log {
+    display: flex;
+    list-style: none;
+    margin: 23px;
+}
+
+.Log li a {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.closeBtn {
+
+
+    color: rgb(9, 124, 201);
+
+
+}
+
+/* mobile */
+#mobile i {
+    display: none;
+
+}
+
+#mobile i {
+    color: #fff;
+    transition: 1.2;
+
+
+}
+
+@media screen and (min-device-width: 619px) and (max-device-width: 846px) {
+
+    .linkContainer {
+
+        background-color: rgb(5, 3, 3);
+        display: flex;
+        align-items: flex-start;
+
+        justify-content: flex-start;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        width: 300px;
+        height: 100vh;
+        z-index: 10;
+        box-shadow: 0 40px 60px rgb(0, 0, 0, 1);
+        padding: 95px 0 0 10px;
+        transition: 0.3s ease-in-out;
+        z-index: 1;
+
+
+    }
+
+    .linkContainer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+
+    }
+
+    #mobile i {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 2;
+
+    }
+
+    #mobile {
+        display: flex;
+        margin: 10px 83px;
+        align-items: center;
+        justify-content: center;
+        z-index: 5;
+
+    }
+
+    .img_container {
+        display: grid;
+        grid-gap: 12px;
+        grid-template-columns: repeat(auto-fit, minmax(119px, 1fr));
+        grid-auto-flow: dense;
+        padding: 30px 0px;
+        position: relative;
+    }
+
+}
+
+
+@media screen and (min-device-width: 150px) and (max-device-width: 619px) {
+
+    .linkContainer {
+
+        background-color: rgb(5, 3, 3);
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        width: 300px;
+        height: 100vh;
+        z-index: 10;
+        box-shadow: 0 40px 60px rgb(0, 0, 0, 1);
+        padding: 95px 0 0 10px;
+        transition: 0.3s ease-in-out;
+        z-index: 1;
+
+
+    }
+
+    .linkContainer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+    }
+
+    #mobile i {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 2;
+
+    }
+
+    #mobile {
+        display: flex;
+        margin: 10px 23px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .img_container {
+        display: grid;
+        grid-gap: 12px;
+        grid-template-columns: repeat(auto-fit, minmax(119px, 1fr));
+        grid-auto-flow: dense;
+        padding: 30px 0px;
+        position: relative;
+    }
+
+    .logo span {
+        color: rgb(64, 176, 241);
+        font-size: 28px;
+        margin-top: 33px;
+    }
+
+    .h2,
+    h2 {
+        font-size: calc(0.9rem + .9vw);
+    }
+
+}

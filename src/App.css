@@ -36,3 +36,191 @@
     transform: rotate(360deg);
   }
 }
+footer{
+  position: relative;
+  width: 100%;
+  background-color: black;
+  min-height: 100px;
+  padding: 33px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .social-icon,footer .menu{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  
+}
+footer .social-icon li,footer .menu li{
+  list-style: none;
+  
+
+}
+.i,footer .menu li a{
+  font-size: 1.8em;
+  margin: 0px 10px;
+  display: inline-block;
+  transition: 0.5s;
+
+}
+
+.i:hover{
+  transform: translateY(-10px);
+ 
+}
+footer .menu li a{
+  font-size: 1.1em;
+  margin: 0px 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.65;
+  color: rgb(255, 255, 255);
+
+}
+footer .menu li a:hover{
+
+  opacity: 1;
+  
+
+}
+footer p{
+
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  
+
+}
+/* footer .wave{
+position: absolute;
+top: -100px;
+left: 0px;
+width: 100%;
+height: 100px;
+background:url(/public/images/wave.png);
+background-size: 1000px 100px;
+ 
+  
+
+}
+footer .wave#wave1 {
+
+ z-index: 9;
+ opacity: 1;
+ bottom: 0;
+ animation: animateWave 4s linear infinite;
+  
+
+}
+footer .wave#wave2 {
+
+ z-index: 8;
+ opacity: 0.8;
+ bottom: 0;
+ animation: animateWave-02 4s linear infinite;
+  
+
+}
+footer .wave#wave3 {
+
+ z-index: 8;
+ opacity: 0.5;
+ bottom: 0;
+ animation: animateWave-02 4s linear infinite;
+  
+
+}
+footer .wave#wave4 {
+
+ z-index: 8;
+ opacity: 0.2;
+ bottom: 0;
+ animation: animateWave-02 4s linear infinite;
+  
+
+}
+@keyframes animateWave
+{
+0%{
+  background-position-x:1000px ;
+}
+100%{
+  background-position-x:0px ;
+}
+}
+  
+@keyframes animateWave_02
+{
+0%{
+  background-position-x:0px ;
+}
+100%{
+  background-position-x:1000px ;
+}
+} */
+@media screen and (min-device-width: 300px) and (max-device-width: 619px) { 
+  footer .social-icon,footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px -10px;
+    flex-wrap: wrap;
+    
+  }
+  .i, footer .menu li a {
+    font-size: 1.5em;
+    margin: 0px 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  footer .menu li a{
+    font-size: 0.8em;
+    margin: 0px 10px;
+  
+  }
+  footer p{
+
+ 
+    font-size: 0.9em;
+    
+  
+  }
+}
+@media screen and (min-device-width: 200px) and (max-device-width: 299px) { 
+  footer .social-icon,footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px -10px;
+    flex-wrap: wrap;
+    
+  }
+  .i, footer .menu li a {
+    font-size: 1.2em;
+    margin: 0px 5px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  footer .menu li a{
+    font-size: 0.7em;
+    margin: 0px 3px;
+  
+  }
+  footer p{
+
+ 
+    font-size: 0.9em;
+    
+  
+  }
+}

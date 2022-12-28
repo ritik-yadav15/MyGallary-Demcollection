@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Sans+Pro:wght@200;300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#Acontainer_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+#Acontainer_1 .content {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 0px 0px;
+    width: 500px;
+
+
+}
+
+#Acontainer_1 h3 {
+    font-size: 53px;
+
+
+}
+
+#Acontainer_1 p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+
+#content_1img {
+
+    width: 39%;
+}
+
+#content_1img img {
+
+    height: auto;
+    width: 100%;
+}
+
+#content_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+
+
+}
+
+#content_2 h3 {
+    font-size: 31px;
+    margin: 90px 0px;
+    width: auto;
+
+}
+
+.card_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+}
+
+.Acard_img img {
+    height: 90%;
+    width: 90%;
+}
+
+#Acard2 .Acard_img img {
+    height: 92%;
+    width: 92%;
+}
+
+#Acard3 .Acard_img img {
+    height: 93%;
+    width: 93%;
+}
+
+.card_content h4 {
+    font-size: 19px;
+    margin: 18px 0px;
+    font-weight: 700;
+
+
+}
+
+.p_container {
+    width: 82%;
+}
+
+.card_content p {
+    font-size: 14px;
+
+
+}
+
+.card_content {
+    margin: 0px 0px;
+    padding: 0px 0px;
+
+}
+
+@media screen and (min-device-width: 946px) and (max-device-width: 1243px) {
+    .card_content p {
+        font-size: 12px;
+    }
+
+
+
+    .card_content h4 {
+        font-size: 16px;
+        margin: 18px 0px;
+    }
+}
+
+
+
+@media screen and (min-device-width: 600px) and (max-device-width: 945px) {
+    #Acontainer_1 h3 {
+        font-size: 30px;
+
+
+    }
+
+    #Acontainer_1 p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+
+
+    }
+
+    #content_2 h3 {
+        font-size: 23px;
+        margin: 90px 0px;
+        width: auto;
+
+    }
+
+
+
+    .card_content h4 {
+        font-size: 13px;
+        margin: 18px 3px;
+
+    }
+
+    .card_content p {
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (min-device-width: 700px) and (max-device-width: 759px) {
+    .card_content h4 {
+        font-size: 11px;
+        margin: 18px 3px;
+
+    }
+
+    .card_content p {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-device-width: 400px) and (max-device-width: 599px) {
+    #Acontainer_1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    #content_1img {
+        width: 100%;
+    }
+
+
+    #Acontainer_1 h3 {
+        font-size: 31px;
+        line-height: 1.25;
+        margin-bottom: 18px;
+
+    }
+
+    #Acontainer_1 .content {
+        max-width: 100%;
+        margin: 20px 0px;
+    }
+
+    #Acontainer_1 p {
+
+        font-size: 16px;
+
+    }
+
+    #content_2 h3 {
+        font-size: 21px;
+        margin: 90px 0px;
+        width: auto;
+
+    }
+
+
+
+    .card_content h4 {
+        font-size: 13px;
+        margin: 18px 3px;
+
+    }
+
+    .card_content p {
+        font-size: 9px;
+    }
+
+    .card_container {
+        flex-direction: column;
+    }
+
+    .Acard {
+        margin-top: 36px;
+    }
+
+    .Acard_img img {
+        height: auto;
+        width: 100%;
+    }
+
+    #Acard2 .Acard_img img {
+        height: auto;
+        width: 100%;
+    }
+
+    #Acard3 .Acard_img img {
+        height: auto;
+        width: 100%;
+    }
+
+    .card_content h4 {
+        font-size: 19px;
+        margin: 18px 3px;
+    }
+
+    .card_content p {
+        font-size: 12px;
+    }
+
+    .p_container {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-device-width: 250px) and (max-device-width: 400px) {
+    #Acontainer_1 {
+
+        flex-direction: column;
+    }
+
+    #content_1img {
+        width: 100%;
+    }
+
+
+    #Acontainer_1 h3 {
+        font-size: 31px;
+        line-height: 1.25;
+        margin-bottom: 18px;
+
+    }
+
+    #Acontainer_1 .content {
+        max-width: 95%;
+        margin: 20px 0px;
+    }
+
+    #Acontainer_1 p {
+
+        font-size: 14px;
+
+    }
+
+    #content_2 h3 {
+        font-size: 19px;
+        margin: 90px 0px;
+        width: auto;
+
+    }
+
+    .card_container {
+        flex-direction: column;
+    }
+
+    .Acard {
+        margin-top: 36px;
+    }
+
+    .Acard_img img {
+        height: auto;
+        width: 100%;
+    }
+
+    #Acard2 .Acard_img img {
+        height: auto;
+        width: 100%;
+    }
+
+    #Acard3 .Acard_img img {
+        height: auto;
+        width: 100%;
+    }
+
+    .card_content h4 {
+        font-size: 17px;
+        margin: 18px 3px;
+    }
+
+    .card_content p {
+        font-size: 11px;
+    }
+
+    .p_container {
+        width: 100%;
+    }
+}
