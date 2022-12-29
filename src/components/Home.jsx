@@ -1,6 +1,17 @@
 import React from 'react'
 import "./Home.css"
-
+import bg3 from './images/bg3.jpg'
+import ig9 from './images/ig9.jpg'
+import ig12 from './images/ig12.jpg'
+import bg2 from './images/bg2.jpg'
+import ig5 from './images/ig5.jpg'
+import ig6 from './images/ig6.jpg'
+import bg5 from './images/bg5.jpg'
+import bg7 from './images/bg7.jpg'
+import bg1 from './images/bg1.jpg'
+import ig11 from './images/ig11.jpg'
+import ig1 from './images/ig1.jpg'
+import ig2 from './images/ig2.jpg'
 
 
 export default function Home() {
@@ -22,22 +33,22 @@ export default function Home() {
 
       <section>
         <div className='sec1'>
-          <div className="secimg"><img src="/images/bg3.jpg" alt="" /></div>
-          <div className="secimg"><img src="/images/ig9.jpg" alt="" /></div>
-          <div className="secimg"><img src="/images/ig12.jpg" alt="" /></div>
-          <div className="secimg"><img src="/images/bg2.jpg" alt="" /></div>
+          <div className="secimg"><img src={bg3}alt="" /></div>
+          <div className="secimg"><img src={ig9} alt="" /></div>
+          <div className="secimg"><img src={ig12} alt="" /></div>
+          <div className="secimg"><img src={bg2} alt="" /></div>
         </div>
         <div className='sec1'>
-          <div className="secimg"><img src="/images/ig5.jpg" alt="" /></div>
-          <div className="secimg"><img src="/images/ig6.jpg" alt="" /></div>
-          <div className="secimg"><img src="/images/bg5.jpg" alt="" /></div>
-          <div className="secimg"><img src="/images/bg7.jpg" alt="" /></div>
+          <div className="secimg"><img src={ig5}alt="" /></div>
+          <div className="secimg"><img src={ig6}alt="" /></div>
+          <div className="secimg"><img src={bg5} alt="" /></div>
+          <div className="secimg"><img src={bg7} alt="" /></div>
         </div>
         <div className='sec1'>
-          <div className="secimg"><img src="/images/bg1.jpg" alt="" /></div>
-          <div className="secimg"><img src="/images/ig11.jpg" alt="" /></div>
-          <div className="secimg"><img src="/images/ig1.jpg" alt="" /></div>
-          <div className="secimg"><img src="/images/ig2.jpg" alt="" /></div>
+          <div className="secimg"><img src={bg1} alt="" /></div>
+          <div className="secimg"><img src={ig11}alt="" /></div>
+          <div className="secimg"><img src={ig1}alt="" /></div>
+          <div className="secimg"><img src={ig2} alt="" /></div>
         </div>
       </section>
 

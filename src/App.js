@@ -21,7 +21,8 @@ function App() {
  
    {/* <Home/> */}
   {/* <Collection/> */}
-  <Route eaxct path="/" element={<Home/>} />
+  <Route eaxct path="/demcollection" element={<Home/>} />
+  <Route  path="/" element={<Home/>} />
   <Route eaxct path="/Home" element={<Home/>} />
   <Route eaxct path="/Collection" element={<Collection/>} />
   <Route eaxct path="/About" element={<About/>} />
