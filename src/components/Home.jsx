@@ -33,22 +33,22 @@ export default function Home() {
 
       <section>
         <div className='sec1'>
-          <div className="secimg"><img src={bg3}alt="" /></div>
-          <div className="secimg"><img src={ig9} alt="" /></div>
-          <div className="secimg"><img src={ig12} alt="" /></div>
-          <div className="secimg"><img src={bg2} alt="" /></div>
+          <div className="secimg"><img src={bg3} alt="" loading='lazy' decoding='async'/></div>
+          <div className="secimg"><img src={ig9} alt="" loading='lazy' decoding='async'/></div>
+          <div className="secimg"><img src={ig12} alt="" loading='lazy' decoding='async'/></div>
+          <div className="secimg"><img src={bg2} alt="" loading='lazy' decoding='async'/></div>
         </div>
         <div className='sec1'>
-          <div className="secimg"><img src={ig5}alt="" /></div>
-          <div className="secimg"><img src={ig6}alt="" /></div>
-          <div className="secimg"><img src={bg5} alt="" /></div>
-          <div className="secimg"><img src={bg7} alt="" /></div>
+          <div className="secimg"><img src={ig5} alt="" loading='lazy' decoding='async'/></div>
+          <div className="secimg"><img src={ig6} alt="" loading='lazy' decoding='async'/></div>
+          <div className="secimg"><img src={bg5} alt="" loading='lazy' decoding='async'/></div>
+          <div className="secimg"><img src={bg7} alt="" loading='lazy' decoding='async'/></div>
         </div>
         <div className='sec1'>
-          <div className="secimg"><img src={bg1} alt="" /></div>
-          <div className="secimg"><img src={ig11}alt="" /></div>
-          <div className="secimg"><img src={ig1}alt="" /></div>
-          <div className="secimg"><img src={ig2} alt="" /></div>
+          <div className="secimg"><img src={bg1} alt="" loading='lazy' decoding='async' /></div>
+          <div className="secimg"><img src={ig11} alt="" loading='lazy' decoding='async'/></div>
+          <div className="secimg"><img src={ig1} alt="" loading='lazy' decoding='async'/></div>
+          <div className="secimg"><img src={ig2} alt="" loading='lazy' decoding='async'/></div>
         </div>
       </section>
 

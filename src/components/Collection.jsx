@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react'
 import "./Collection.css"
 
-
 export default function Collection() {
-
 
   const [results, setResults] = useState([]);
   const [page, setPage] = useState(1);
@@ -21,9 +19,6 @@ export default function Collection() {
     setPage(page - 1)
     window.scrollTo(0, 0)
 
-
-
-
   }
 
   useEffect(() => {
@@ -37,6 +32,8 @@ export default function Collection() {
 
         setResults(data.results)
 
+
+
       }, (error) => {
         console.log(error);
       })
@@ -48,26 +45,24 @@ export default function Collection() {
 
   }, [searchValue, page])
 
-  useEffect(() => {
-
-
-  }, [])
-
-  const handleInputChange = (e) => {
-    setSearchValue(e.target.value)
+  const handleInputChange = () => {
+    let SearchInput = document.getElementById('search')
+    setSearchValue(SearchInput.value)
 
   }
+
 
   return (
 
     <>
       <div className='container text-center my-5'>
 
-        <input type="search" className='form-control' onChange={handleInputChange} placeholder='Search Images' />
+        <input type="search" className='form-control' id="search" placeholder='Search Images' />
 
-        <button type='submit' disabled={!searchValue} className='btn btn-dark my-2'>Search</button>
+        <button type='submit' disabled={!searchValue} onClick={handleInputChange} className='btn btn-dark my-2'>Search</button>
 
       </div>
+
 
 
 
@@ -76,12 +71,21 @@ export default function Collection() {
         {results.map((value) => {
           return (
 
-            <div className="img_box" key={value.share_key}>
-              <img className="imgs" src={value.cover_photo.urls.regular} alt='' />
+            <div className="img_box" key={value.share_key} >
+
+              <img className="imgs" src={value.cover_photo.urls.small} loading='lazy' decoding='async' alt='' />
+
             </div>
 
           )
-        })}
+
+        })
+
+
+        }
+        <div className='notFoundContainer'>
+          <h1 className='notFound'> {`${results.length === 0 ? "Images Not Found" : ""}`}</h1>
+        </div>
 
       </section>
 

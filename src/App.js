@@ -17,11 +17,7 @@ function App() {
   <Navbar/>
   <Routes>
        
-
- 
-   {/* <Home/> */}
-  {/* <Collection/> */}
-  <Route eaxct path="/demcollection" element={<Home/>} />
+  <Route eaxct path="/MyGallary-Demcollection" element={<Home/>} />
   <Route  path="/" element={<Home/>} />
   <Route eaxct path="/Home" element={<Home/>} />
   <Route eaxct path="/Collection" element={<Collection/>} />
