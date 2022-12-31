@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/MyGallary-Demcollection/static/css/main.cbee76c8.css",
+    "main.js": "/MyGallary-Demcollection/static/js/main.445c40a9.js",
+    "static/js/787.c87434cb.chunk.js": "/MyGallary-Demcollection/static/js/787.c87434cb.chunk.js",
+    "static/media/bg3.jpg": "/MyGallary-Demcollection/static/media/bg3.ba764c690fe05edcacab.jpg",
+    "static/media/ig5.jpg": "/MyGallary-Demcollection/static/media/ig5.379931e2b5036636fb1d.jpg",
+    "static/media/bg5.jpg": "/MyGallary-Demcollection/static/media/bg5.e369cd453a71f8328f32.jpg",
+    "static/media/ig6.jpg": "/MyGallary-Demcollection/static/media/ig6.ffbd7d91eccb94a19060.jpg",
+    "static/media/bg2.jpg": "/MyGallary-Demcollection/static/media/bg2.cff57ff08ab171662754.jpg",
+    "static/media/ig11.jpg": "/MyGallary-Demcollection/static/media/ig11.fb37d86620bdef28343f.jpg",
+    "static/media/bg7.jpg": "/MyGallary-Demcollection/static/media/bg7.908d14dce3bbd3835ed9.jpg",
+    "static/media/bg1.jpg": "/MyGallary-Demcollection/static/media/bg1.cfd6aa22e5f4c28ae9fa.jpg",
+    "static/media/ig9.jpg": "/MyGallary-Demcollection/static/media/ig9.c8d696dc723545279a35.jpg",
+    "static/media/ig1.jpg": "/MyGallary-Demcollection/static/media/ig1.971e4c6715aaaade52d9.jpg",
+    "static/media/ig2.jpg": "/MyGallary-Demcollection/static/media/ig2.4303cf0f4eced937626f.jpg",
+    "static/media/ig12.jpg": "/MyGallary-Demcollection/static/media/ig12.fa273077d9093ef92708.jpg",
+    "static/media/about-header-01.jpg": "/MyGallary-Demcollection/static/media/about-header-01.753273da609db3004a0f.jpg",
+    "static/media/img03.jpg": "/MyGallary-Demcollection/static/media/img03.b86486edd849b2639ed3.jpg",
+    "static/media/img01.jpg": "/MyGallary-Demcollection/static/media/img01.8292d4dfca3757f8d983.jpg",
+    "static/media/img02.jpg": "/MyGallary-Demcollection/static/media/img02.2d7c0a08ea93bc64b374.jpg",
+    "index.html": "/MyGallary-Demcollection/index.html",
+    "main.cbee76c8.css.map": "/MyGallary-Demcollection/static/css/main.cbee76c8.css.map",
+    "main.445c40a9.js.map": "/MyGallary-Demcollection/static/js/main.445c40a9.js.map",
+    "787.c87434cb.chunk.js.map": "/MyGallary-Demcollection/static/js/787.c87434cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbee76c8.css",
+    "static/js/main.445c40a9.js"
+  ]
+}
